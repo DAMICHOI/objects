@@ -13,7 +13,11 @@ public class TicketSeller {
 		this.ticketOffice = ticketOffice;
 	}
 
-	public TicketOffice getTicketOffice() {
-		return ticketOffice;
+	/**
+	 * 티켓을 판매한다.
+	 * @param audience 관람객
+	 */
+	public void sellTo(Audience audience) {
+		ticketOffice.plusAmount(audience.buy(ticketOffice.getTicket()));
 	}
 }
