@@ -31,7 +31,7 @@
 **변경에 취약한 코드**
 - 가장 심각한 문제는 변경에 취약하다는 점이다. Audience와 TicketSeller를 변경할 경우 Theater도 함께 변경해야 한다.
 - 너무 많은 클래스에 의존하는 Theater   
-  ![ClassDiagram(Theater)](https://user-images.githubusercontent.com/51159167/155100025-08849e37-b963-46c5-b579-93ac5f7f2fec.png)
+  ![ClassDiagram(Theater)](https://user-images.githubusercontent.com/51159167/155106629-ceeafb08-5404-4b44-87cf-5d954f25e2d5.png)
 
 
 ## 설계 개선하기
