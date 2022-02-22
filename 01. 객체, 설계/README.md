@@ -11,4 +11,4 @@
 
 ## 구현
 - 애플리케이션 핵심 클래스  
-[!애플리케이션 핵심 클래스](classDiagram.png)
+  ![classDiagram](https://user-images.githubusercontent.com/51159167/155091239-ae2ec565-a04f-41b0-94b5-19a73099908b.png)
